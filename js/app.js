@@ -22,10 +22,10 @@ var app = angular.module('example359', []).
           controller: ProjectCtrl,
           activetab: 'projects'
         }).
-        when('/privacy', {
-          templateUrl: 'pages/privacy.html',
-          controller: PrivacyCtrl,
-          activetab: 'privacy'
+        when('/hobbies', {
+          templateUrl: 'pages/hobbies.html',
+          controller: HobbiesCtrl,
+          activetab: 'hobies'
         }).
         when('/about', {
           templateUrl: 'pages/about.html',
